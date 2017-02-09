@@ -1,0 +1,18 @@
+///
+/// Dimension by HTML5 UP
+///@ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license 
+///Redisgned and edited by: Srinibas Biswal | 2017 
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
