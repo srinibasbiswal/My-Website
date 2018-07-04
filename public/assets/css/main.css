@@ -1616,3 +1616,30 @@
 		.section-text{
 			text-align: justify !important;
 		}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	height: 300px;
+}
+.card h3,p{
+	text-align: center;
+}
+.card p button{
+	margin-top: 5px;
+}
+@media screen and (min-width: 480px) {
+    .card {
+        width: 40%;
+    }
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
