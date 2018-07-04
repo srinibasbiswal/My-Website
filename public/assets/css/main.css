@@ -5,7 +5,7 @@
 	Dimension by HTML5 UP
 	@ajlkn
 	Free for personal and commercial use under the CCA 3.0 license
-	Redisgned and edited by: Srinibas Biswal | 2017 
+	Redisgned and edited by: Srinibas Biswal | 2017
 */
 
 /* Reset */
@@ -49,7 +49,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	
+
 
 /*  Model */
 
@@ -608,7 +608,7 @@
  width: 250px;
  height: 250px;
  margin-left:auto;
- margin-right: auto; 
+ margin-right: auto;
  /*background-image: url(file:///D:/MY%20DATA/html5up-dimension/images/pic01.jpg);
  background-size: cover;
  */border-radius: 50%;
@@ -620,7 +620,7 @@
 		display: inline-block;
 		position: relative;
 	}
-	
+
 		.image:before {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -676,7 +676,7 @@
 
 		.image.main {
 			display: block;
-			
+
 			border-radius: 50%;
 			margin: 2.5rem 0;
 			width: 100%;
@@ -1611,4 +1611,8 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+		}
+
+		.section-text{
+			text-align: justify !important;
 		}
